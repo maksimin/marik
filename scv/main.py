@@ -5,8 +5,6 @@ if __name__ == '__main__':
     print("Команды программы: ", arry_comand)
     while True:
         str1 = input('Введите команду: ')
-
-        print("Hello!")
         if str1 == 'exit':
             print("Exit")
             break
