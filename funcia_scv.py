@@ -1,6 +1,6 @@
 class csv:
+    pass
 
-    
 
 def new_file():
     file_neme = input("Enter file name: ")
