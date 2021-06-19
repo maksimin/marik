@@ -16,3 +16,7 @@ def seve_file(seve):
 def delit_stroka(delit):
     delenie = delit
     return delenie
+
+
+def chek(st):
+    pass
