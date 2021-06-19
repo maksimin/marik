@@ -1,22 +1,6 @@
-def new_file(new):
-    new_st = new
-    return new_st
-
-
-def open_file(ope_file):
-    ope = ope_file
-    return ope
-
-
-def seve_file(seve):
-    sev = seve
-    return sev
-
-
-def delit_stroka(delit):
-    delenie = delit
-    return delenie
-
-
-def chek(st):
-    pass
+def new_file():
+    file_neme = input("Enter file name: ")
+    columns = input("Enter name columns ,: ")
+    column = columns.split(',')
+    new_colum = [col.strip() for col in column]
+    return file_neme, new_colum
