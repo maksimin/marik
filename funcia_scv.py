@@ -1,7 +1,4 @@
-class csv(object):
-
-    def initializ(self, file, new_colon):
-        pass
+from Csv import *
 
 
 def new_file():
@@ -9,6 +6,6 @@ def new_file():
     columns = input("Enter name columns ,: ")
     column = columns.split(',')
     new_colum = [col.strip() for col in column]
-    file = csv()
-    new_fil = file.initializ(file_neme, new_colum)
-    print("Create file with colums: ", new_fil)
+    file = Csv(file_neme, new_colum)
+    file.__init__(file_neme, new_colum)
+    print("Create file with colums: ", file)
